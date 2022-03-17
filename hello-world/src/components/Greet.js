@@ -25,7 +25,6 @@ function Greet() {
 export default Greet
 */
 
-
 // Functional Component - Normal function
 /*
 import React from 'react'                   // rfce
@@ -52,8 +51,6 @@ export default function Greet() {
     )
 }
 */
-
-
 
 // Functional Component - ES6 Arrow Function (Fat Arrow Function) - syntax
 /*
@@ -103,11 +100,10 @@ const Greet = () => {                      // _rafce
 export default Greet
 */
 
-
 // Functional Component - ES6 Arrow Function (fat Arrow Function)
 
 // Default Export (export default)
-/*
+
 import React from 'react'               // rafce
 
 const Greet = () => {
@@ -121,7 +117,7 @@ const Greet = () => {
 export default Greet
 
 // or
- 
+/* 
 import React from 'react'
 
 const Greet = () => {
@@ -139,11 +135,9 @@ const Greet = () => <h1>Dhanaraj Narasimmareddy Prasanth</h1>
 export default Greet
 */
 
-
-
 // Named Export (export)
-
-import React from 'react';          // rafc
+/*
+import React from "react"; // rafc
 
 export const Greet = () => {
   return (
@@ -151,10 +145,10 @@ export const Greet = () => {
       <h1>Dhanaraj Narasimmareddy Prasanth</h1>
     </div>
   );
-}
+};
 
 // or
-/*
+
 import React from 'react';
 
 export const Greet = () => {
@@ -165,7 +159,5 @@ export const Greet = () => {
 
 import React from 'react';
 
-export const Greet = () => <h1>Dhanaraj Narasimmareddy Prasanth</h1> // import as { Greet } in App.js
+export const Greet = () => <h1>Dhanaraj Narasimmareddy Prasanth</h1>           // import as { Greet } in App.js
 */
-
-
