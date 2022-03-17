@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
-import Greet from './components/Greet';
+// import Greet from './components/Greet';      // 5.functional component (Default export)
+import { Greet }  from './components/Greet'     // 5.functional component (Named Export)
 
 function App() {
   return (
