@@ -107,7 +107,7 @@ export default Greet
 // Functional Component - ES6 Arrow Function (fat Arrow Function)
 
 // Default Export (export default)
-
+/*
 import React from 'react'               // rafce
 
 const Greet = () => {
@@ -121,7 +121,7 @@ const Greet = () => {
 export default Greet
 
 // or
-/* 
+ 
 import React from 'react'
 
 const Greet = () => {
@@ -142,7 +142,7 @@ export default Greet
 
 
 // Named Export (export)
-/*
+
 import React from 'react';          // rafc
 
 export const Greet = () => {
@@ -154,7 +154,7 @@ export const Greet = () => {
 }
 
 // or
-
+/*
 import React from 'react';
 
 export const Greet = () => {
